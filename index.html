@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="grid.css" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Proba</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="jquery-latest.min.js"></script>
+    <script type="text/javascript" src="chosen.jquery.js"></script>
+    <link rel="stylesheet" href="chosen.css" />
+    <!--[if IE]>
+    <script type="text/javascript" src="PIE/PIE.js"></script>
+    <![endif]-->
+    <script>
+        jQuery(document).ready(function(){
+            jQuery(".chosen").chosen();
+        })
+    </script>
+
+</head>
+<body>
+    <div class="line_gray"></div>
+    <div class="girl">
+        <img src="i/girl.png" alt="girl"/>
+    </div>
+    <div class="container_12">
+        <div class="grid_3 prefix_9">
+            <div class=" country ">
+                <div class="arrow-country it it-grin-arrow"></div>
+                <a href="javascript:sh()">Country</a><br />
+                <div class="spisok" id="info" style="padding-top:15px;">
+                    <ul>
+                        <li>UAE</li>
+                        <li>Oman</li>
+                        <li>Qatar</li>
+                        <li>Saudi Arabia</li>
+                        <li>Kuwait</li>
+                        <li>Bahrain</li>
+                    </ul>
+                </div>
+
+
+                <img class="vyaz" src="i/vyaz.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="grid_5">
+            <img src="i/logo.png" class="logo" alt="logo"/>
+        </div>
+        <div class="grid_5">
+            <div class="arrow_box">
+
+                <form action="#">
+
+                    <div class="arrow-light-gray it it-arrow"></div>
+                    <select  class="chosen" name="Looking for" tabindex="1" >
+                        <option>City</option>
+                        <option>Kiev</option>
+                        <option>Shpola</option>
+                        <option>Dubai</option>
+                        <option>Arenal</option>
+                        <option>Alanya</option>
+                    </select>
+
+                    <div class="arrow-light-gray it it-arrow"></div>
+                    <select class="chosen" name="Looking for" tabindex="1">
+                        <option>Looking for</option>
+                        <option>Kiev</option>
+                        <option>Shpola</option>
+                        <option>Dubai</option>
+                        <option>Arenal</option>
+                        <option>Alanya</option>
+                    </select>
+
+
+                    <div class="radiobutton">
+                        <span class="gender">Gender</span>
+
+                        <input id="Radio1" type="radio" name="sex" class="CheckBoxClass">
+                        <label id="Label1" for="Radio1" class="CheckBoxLabelClass">Male</label>
+
+                        <input id="Radio2" type="radio" name="sex" class="CheckBoxClass">
+                        <label id="Label2" for="Radio2" class="CheckBoxLabelClass">Female</label>
+                    </div>
+
+                        <div class="arrow-light-gray it it-arrow"></div>
+                        <select class="chosen" name="Nationality" tabindex="2">
+                            <option>Nationality</option>
+                            <option>Kiev</option>
+                            <option>Shpola</option>
+                            <option>Dubai</option>
+                            <option>Arenal</option>
+                            <option>Alanya</option>
+                        </select>
+
+                        <div class="arrow-light-gray it it-arrow"></div>
+                        <select class="chosen" name="Age" tabindex="3">
+                            <option>Age</option>
+                            <option>Kiev</option>
+                            <option>Shpola</option>
+                            <option>Dubai</option>
+                            <option>Arenal</option>
+                            <option>Alanya</option>
+                        </select>
+
+                        <div class="arrow-light-gray it it-arrow"></div>
+                        <select class="chosen" name="Availability" tabindex="4">
+                            <option>Availability</option>
+                            <option>Kiev</option>
+                            <option>Shpola</option>
+                            <option>Dubai</option>
+                            <option>Arenal</option>
+                            <option>Alanya</option>
+                        </select>
+
+                </form>
+                <button class="button red">Find</button>
+                <p class="grin-text">Advanced search</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+            <div class="grid_5 suffix_2 ">
+                <span class="name">FINDING</span>
+                <span class="name-litle">HOUSEMAIDS</span>
+                <span class="name-medium">Made EZ</span>
+            </div>
+
+
+        <div class="clearfix"></div>
+            <div class="grid_5 left">
+                <p class="content">
+                    Whether you are looking for a housemaid, nanny, cook, gardener, or private driver, you will easily find
+                    them here. This website showcases servants from the best agencies in UAE, Saudi Arabia, Kuwait, Bahrain,
+                    Qatar, and Oman.
+                </p>
+            </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="line_light_grin"></div>
+    <div class="contacty">
+        <div class="container_12">
+            <div class="grid_4 ">
+                <div class="rad">
+                    <div class="people-position it it-piople"></div>
+                </div>
+                <p class="work">Agency Membership</p>
+                <p class="color-text">Find out why so many agencies choose Maid ez.</p>
+            </div>
+            <div class="grid_4 ">
+                <div class="rad">
+                    <div class=" people-position it it-list"></div>
+                </div>
+                <p class="work">Formalities</p>
+                <p class="color-text">Understand the government process required to bring your servant </p>
+            </div>
+            <div class="grid_4">
+                <form action="#" class="form-sign">
+                    <p class="name-form">Sign In to Your Account</p>
+                    <input class="pole" type="text" name="email" placeholder="Email"/>
+                    <input  class="pole" type="text" name="password" placeholder="Password"/>
+                    <button class="button grin">Sign In</button>
+                    <p class="color-text for">Forgot your password?</p>
+                </form>
+            </div>
+                <p class="login">Login using your social account</p>
+            <div class="grid_4">
+                <div class="icon facebook">
+                    <div class="it it-f"></div>
+                </div>
+
+                <div class="icon twitter">
+                    <div class="it it-g"></div>
+                </div>
+
+                <div class="icon google">
+                    <div class="it it-t"></div>
+                </div>
+                <div class="red-text">Sign Up!</div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container_12">
+            <div class="grid_5">
+                <p class="copy">Copyright © 2013. Maid EZ. All rights reserved</p>
+            </div>
+            <div class="grid_2 suffix_1">
+                <div class="it it-f ico-footer"></div>
+                <div class="it it-g ico-footer"></div>
+                <div class="it it-t ico-footer"></div>
+            </div>
+            <div class="grid_4">
+                <a href="#">For agencies </a>
+                <a href="#">Site map</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        (function(){
+            var labels = $('label.CheckBoxLabelClass');
+            $(labels).on('click',function(){
+                if(!$(this).hasClass('LabelSelected'))
+                {
+                    labels.removeClass('LabelSelected');
+                    $(this).addClass('LabelSelected');
+                }
+            });
+        })();
+    </script>
+
+    <script type="text/javascript">
+        sh();
+        function sh() {
+            obj = document.getElementById("info");
+            if( obj.style.display == "none" ) { obj.style.display = "block"; } else { obj.style.display = "none"; }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

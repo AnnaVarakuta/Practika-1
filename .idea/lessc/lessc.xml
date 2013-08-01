@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LessManager">
+    <option name="lessProfiles">
+      <map>
+        <entry key="proba">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="Z:\home\Attractgroup" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="excludePattern" value="style.css" />
+              <option name="includePattern" value="style.less" />
+              <option name="lessDirPath" value="Z:\home\Attractgroup" />
+              <option name="name" value="proba" />
+            </LessProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
+

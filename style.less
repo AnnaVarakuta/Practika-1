@@ -1,0 +1,436 @@
+@font-face {
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot") /* EOT file for IE */
+}
+@font-face {
+  font-family: GROBOLD;
+  src: url("GROBOLD.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+body {
+
+  padding: 0 0 0;
+  background: #ecebeb;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+
+}
+.line_gray{
+  background: #445669;
+  height: 6px;
+  margin-bottom: 33px;
+}
+.line_light_grin{
+  background: #1ba99e;
+  height: 7px;
+  margin-top:75px;
+}
+.logo{
+  margin-top:30px ;
+  margin-bottom: 23px;
+}
+.girl{
+  position: absolute;
+  left: 50%;
+  margin-left: -327px;
+  width: 655px;
+  top: 6px;
+  z-index:-10;
+}
+.arrow-country{
+  position: absolute;
+  right: 133px;
+  top: 10px;
+
+}
+.country{
+
+  a{
+    cursor: pointer;
+    position: absolute;
+    height:17px ;
+    width:100px ;
+    background:transparent ;
+    border:none;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #34495e;
+    padding: 5px 18px;
+    text-decoration: none;
+    &:hover,&:active{
+      border: none;
+    }
+  }
+}
+.spisok{
+  position: absolute;
+  background: #f6f6f6;
+  border: 2px solid #34495e;
+  border-radius: 6px;
+  padding: 3px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #415568;
+  behavior: url('PIE/PIE.htc');
+  width: 105px;
+  top:25px;
+  z-index: 20;
+
+  li{
+    list-style-type: none;
+    &:hover{
+      color:#1ba99e;
+    }
+  }
+}
+.vyaz{
+  position: absolute;
+  top:5px;
+  right:68px;
+}
+// Заголовок
+.name{
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  font-size: 83px;
+  color:#34495e;
+}
+.name-litle{
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  font-size: 53px;
+  color:#34495e;
+  line-height: 22px;
+}
+.name-medium{
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  font-size: 75px;
+  color:#f2725c;
+  line-height: 76px;
+}
+//Конец заголовка
+
+
+.content{
+  margin-top: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 17px;
+  text-align: center;
+  color: #6e7983;
+}
+
+//Контейнер со списками
+.arrow_box {
+  position: absolute;
+  background: #f6f6f6;
+  border: 4px solid #bdc3c7;
+  left:231px;
+  top:59px;
+  height: 430px;
+  width: 297px;
+  border-radius: 5px;
+  behavior: url('PIE/PIE.htc');
+
+}
+.arrow_box:after, .arrow_box:before {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+
+  border-right-color: #f6f6f6;
+  border-width: 13px;
+  top: 50%;
+  margin-top: -39px;
+}
+.arrow_box:before {
+
+  border-right-color: #bdc3c7;
+  border-width: 19px;
+  top: 50%;
+  margin-top: -45px;
+}
+//Конец контейнера со списками
+
+//Списки
+.arrow-light-gray{
+   position: relative;
+   left: 255px;
+   top: 35px;
+   z-index: 20;
+
+ }
+
+
+.gender{
+  font-weight: bold;
+  margin-right: 25px;
+}
+.radiobutton{
+  margin-top: 17px;
+  margin-left: 21px;
+  color: #34495e;
+  font-style: normal;
+
+  }
+.CheckBoxClass {
+  display: none;
+}
+
+.CheckBoxLabelClass{
+  background:url("i/radio.png") no-repeat;
+  padding-left: 22px;
+  width: 37px;
+  height: 18px;
+  display:inline-block;
+}
+
+.LabelSelected{
+  background: url("i/radio-active.png") no-repeat;
+}
+
+.grin-text{
+  color:#1ba99e;
+  font-weight: bold;
+  text-align: center;
+}
+
+//Конец списков
+
+.contacty{
+  background: #485b6e;
+  height: 351px;
+}
+.rad{
+  position: relative;
+  background:#f2725c;
+  width: 154px;
+  height: 154px;
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  margin-left: 72px;
+  border-radius: 77px;
+  behavior: url('PIE/PIE.htc');
+  display: block;
+}
+.people-position{
+  position: absolute;
+  left: 42px;
+  top: 36px;
+}
+.work{
+  font-size: 25px;
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+}
+.color-text{
+  color:#fff;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.for{
+  margin-top: 25px;
+}
+.pole{
+  height: 41px;
+  width:270px ;
+  padding-left: 12px;
+  margin: 7px 0;
+  background:#3c5064 ;
+  border:2px solid #1b2937;
+  border-radius: 7px;
+  behavior: url('PIE/PIE.htc');
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 41px;
+  color: #a7adb2;
+
+
+}
+.form-sign{
+  position: relative;
+  margin-top: 27px;
+}
+.name-form{
+  font-size: 25px;
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+}
+.login{
+  display: block;
+  font-size: 16px;
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+}
+.icon{
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 4px;
+  border-radius: 5px;
+  behavior: url('PIE/PIE.htc');
+
+
+  &.facebook{
+    padding: 10px 16px;
+    background: #3b5a99;
+  }
+ &.twitter{
+    padding: 11px 10px;
+    background: #1daae2;
+ }
+ &.google{
+    padding: 10px 10px;
+    background: #d74f2e;
+ }
+}
+.red-text{
+  font-size: 25px;
+  font-family: GROBOLD;
+  src: url("GROBOLD.eot"); /* EOT file for IE */
+  src: url("GROBOLD.ttf"); /* TTF file for CSS3 browsers */
+  font-style: normal;
+  color: #d74f2e;
+  text-align: right;
+  margin-top: 6px;
+
+}
+.footer{
+  height: 56px;
+  background: #28333d;
+  a{
+    text-decoration: none;
+    color:#8a9197;
+    font-size: 14px;
+    line-height: 57px;
+    text-align: right;
+    margin: 0 10px;
+  }
+}
+.copy{
+  color:#fff;
+  margin-top: 23px;
+}
+.ico-footer{
+  margin: 23px 10px;
+
+  display:inline-block;
+  float:left;
+
+}
+.button{
+  position: relative;
+  height: 43px;
+  width: 103px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 38px;
+  border-radius: 5px;
+  behavior: url('PIE/PIE.htc');
+
+  &.grin{
+    background: #1ba99e;
+    box-shadow:  0px 3px 0px 0px #037062;
+    float: left;
+    margin: 15px 0 20px 0;
+    &:active,&:hover{
+      box-shadow: none;
+    }
+  }
+  &.red{
+    background: #f2725c;
+    box-shadow:  0px 3px 0px 0px #e63321;
+    margin: 10px 0 19px 97px;
+    &:active,&:hover{
+      box-shadow: none;
+    }
+  }
+}
+
+//Мелкие картинки из спрайта
+.stitches-it(@x: 0, @y: 0, @width: 0, @height: 0) {
+  background-position: @x @y;
+  width: @width;
+  height: @height;
+}
+
+.it {
+  background-image: url(i/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+
+  &.it-arrow {
+    .stitches-it(-5px, -5px, 12px, 8px);
+  }
+
+  &.it-f {
+    .stitches-it(-27px, -5px, 11px, 22px);
+  }
+
+  &.it-g {
+    .stitches-it(-48px, -5px, 21px, 18px);
+  }
+
+  &.it-grin-arrow {
+    .stitches-it(-79px, -5px, 12px, 8px);
+  }
+
+  &.it-list {
+    .stitches-it(-101px, -5px, 66px, 80px);
+  }
+
+  &.it-piople {
+    .stitches-it(-177px, -5px, 70px, 66px);
+  }
+
+  &.it-radio {
+    .stitches-it(-257px, -5px, 18px, 18px);
+  }
+
+  &.it-radio-active {
+    .stitches-it(-285px, -5px, 18px, 18px);
+  }
+
+  &.it-t {
+    .stitches-it(-313px, -5px, 25px, 20px);
+  }
+}
+
